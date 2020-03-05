@@ -6,6 +6,6 @@ int consolReSize (int height,int width)
     // Get console window handle
     HWND wh = GetConsoleWindow();
 
-    // Move window to required position
     MoveWindow(wh, 100, 100, width, height, TRUE);
+    //Move window x=^ ,y=^  required position
 }
