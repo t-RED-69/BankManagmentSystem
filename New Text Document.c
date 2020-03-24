@@ -15,7 +15,7 @@ int lockOpeningAnimation(){
     printf("\n          +--------------+\n          | +----------+ |\n          | |          | |\n          +=+          | | \n        +--------------^-^-+\n        |                  |\n        |        @@        |\n        |        ||        |\n        +________||________+\n        \n            > UNLOCKED\n");
     Sleep(1000);
     consolReSize(500,500);
-    printf(R"EOF(
+    printf(R"EOF(    // <<==  HERE
 
     ---HAVE A BOOK---
 
@@ -26,7 +26,7 @@ int lockOpeningAnimation(){
     (_________)/
 
 
-)EOF");
+)EOF");      // <<== TO Here
 }
 
 int consolReSize (int height,int width)
